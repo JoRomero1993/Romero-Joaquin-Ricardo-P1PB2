@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import ar.unlam.edu.parcialpb1.Biblioteca;
 import ar.unlam.edu.parcialpb1.Estudiante;
+import ar.unlam.edu.parcialpb1.Historia;
 import ar.unlam.edu.parcialpb1.Libros;
 
 public class testBiblioteca {
@@ -14,6 +15,7 @@ y al menos 5 casos pruebas significativos.*/
 	
 @Test
 public void losLibrosSePuedenCrear() {
+	Historia historia1 = new Historia();
 	
 	
 	

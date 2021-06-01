@@ -1,5 +1,5 @@
 package ar.unlam.edu.parcialpb1;
 
-public class Matematicas {
+public class Matematicas extends Libros {
 
 }

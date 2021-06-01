@@ -1,5 +1,5 @@
 package ar.unlam.edu.parcialpb1;
 
-public class Geografia {
+public class Geografia extends Libros {
 
 }
