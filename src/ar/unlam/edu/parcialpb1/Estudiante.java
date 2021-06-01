@@ -1,6 +1,6 @@
 package ar.unlam.edu.parcialpb1;
 
-public class estudiante {
+public class Estudiante {
 	
 	private Integer dni;
 	private String nombre;
