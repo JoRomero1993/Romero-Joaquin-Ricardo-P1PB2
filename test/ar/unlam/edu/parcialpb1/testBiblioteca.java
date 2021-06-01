@@ -1,7 +1,9 @@
-package ar.unlam.edu.parcialpb1.test;
+package ar.unlam.edu.parcialpb1;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import ar.unlam.edu.parcialpb1.Biblioteca;
@@ -19,14 +21,14 @@ y al menos 5 casos pruebas significativos.*/
 	
 @Test
 public void losLibrosSePuedenCrear() {
+	
 	Historia historia1 = new Historia();
 	Geografia geografia1 = new Geografia();
 	Matematicas matematicas1 = new Matematicas();
 	
 	
-	assertNull(historia1);
-	assertNull(geografia1);
-	assertNull(historia1);
+	assertNotNull(matematicas1);
+
     
 	
 	
