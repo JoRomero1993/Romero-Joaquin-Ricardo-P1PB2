@@ -27,7 +27,10 @@ public void losLibrosSePuedenCrear() {
 	Matematicas matematicas1 = new Matematicas();
 	
 	
+	assertNotNull(historia1);
+	assertNotNull(geografia1);
 	assertNotNull(matematicas1);
+	
 
     
 	
