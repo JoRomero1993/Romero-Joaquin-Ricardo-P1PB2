@@ -3,6 +3,8 @@ package ar.unlam.edu.parcialpb1.test;
 import org.junit.Test;
 
 import ar.unlam.edu.parcialpb1.Biblioteca;
+import ar.unlam.edu.parcialpb1.Estudiante;
+import ar.unlam.edu.parcialpb1.Libros;
 
 public class testBiblioteca {
 
@@ -11,14 +13,18 @@ public class testBiblioteca {
 y al menos 5 casos pruebas significativos.*/
 	
 @Test
-public void losLibrosExisten() {
-	Libros libro1 = new Libros();
+public void losLibrosSePuedenCrear() {
+	
+	
 	
 }
-@Test
+public void losEstudiantesSePuedenCrear() {
+	Estudiante estudiante1 = new Estudiante();
+}
 public void enBibliotecaSePuedeCrearLibros() {
+	
 	Biblioteca bibliotecaNacional= new Biblioteca();
-	bibliotecaNacional.
+	
 	
 }
 	
