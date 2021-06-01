@@ -44,6 +44,19 @@ public void sePuedeCrearLaBiblioteca() {
 	assertNotNull(bibliotecaNacional);
 	
 }
+public void sePuedeGuardarLibrosEnBuiblioteca() {
+	
+	Biblioteca bibliotecaNacional= new Biblioteca();
+	
+	Historia historia1 = new Historia();
+	Geografia geografia1 = new Geografia();
+	Matematicas matematicas1 = new Matematicas();
+	
+	bibliotecaNacional.set(historia1,geografia1,matematicas1);
+	
+
+	
+}
 	
 	
 	
