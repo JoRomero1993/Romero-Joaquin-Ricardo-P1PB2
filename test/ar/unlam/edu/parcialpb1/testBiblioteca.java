@@ -31,21 +31,17 @@ public void losLibrosSePuedenCrear() {
 	assertNotNull(geografia1);
 	assertNotNull(matematicas1);
 	
-
-    
-	
-	
-	
-	
-	
 }
 public void losEstudiantesSePuedenCrear() {
+	
 	Estudiante estudiante1 = new Estudiante();
+	
+	assertNotNull(estudiante1);
 }
-public void enBibliotecaSePuedeCrearLibros() {
+public void sePuedeCrearLaBiblioteca() {
 	
 	Biblioteca bibliotecaNacional= new Biblioteca();
-	
+	assertNotNull(bibliotecaNacional);
 	
 }
 	
