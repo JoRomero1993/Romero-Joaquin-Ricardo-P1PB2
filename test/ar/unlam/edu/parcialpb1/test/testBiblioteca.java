@@ -9,10 +9,16 @@ public class testBiblioteca {
 	/*Se requiere implementar la totalidad de las clases que den solución a 
 	 * la situación planteada 
 y al menos 5 casos pruebas significativos.*/
+	
 @Test
 public void losLibrosExisten() {
-	Biblioteca bibliotecaNacional= new Biblioteca();
+	Libros libro1 = new Libros();
 	
+}
+@Test
+public void enBibliotecaSePuedeCrearLibros() {
+	Biblioteca bibliotecaNacional= new Biblioteca();
+	bibliotecaNacional.
 	
 }
 	
