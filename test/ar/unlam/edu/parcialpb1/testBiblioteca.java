@@ -54,8 +54,9 @@ public void sePuedeGuardarLibrosEnBiblioteca() {
 	Geografia geografia1 = new Geografia();
 	Matematicas matematicas1 = new Matematicas();
 	
-bibliotecaNacional.setGeografia(geografia1);	
-
+bibliotecaNacional.agregarLibroDeHistoria(historia1);	
+bibliotecaNacional.agregarLibroDeGeografia(geografia1);
+bibliotecaNacional.agregarLibroDeMatematicas(matematicas1);
 	
 }
 	

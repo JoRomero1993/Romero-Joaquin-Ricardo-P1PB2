@@ -2,6 +2,8 @@ package ar.unlam.edu.parcialpb1;
 
 import java.util.ArrayList;
 
+
+
 public class Biblioteca {
 	private ArrayList<Historia> Historia = new ArrayList<Historia>(); 
 	private ArrayList<Geografia> Geografia = new ArrayList<Geografia>();
@@ -42,10 +44,21 @@ public class Biblioteca {
 	
 
 	
-	public void setCambiarVariosLibros(ArrayList<ar.unlam.edu.parcialpb1.Historia> historia1, ArrayList<ar.unlam.edu.parcialpb1.Geografia> geografia1, ArrayList<ar.unlam.edu.parcialpb1.Matematicas> matematicas1) {
-      this.setGeografia(geografia1);
-      this.setHistoria(historia1);
-      this.setMatematicas(matematicas1);
+	public void agregarLibroDeHistoria(Historia historia) {
+
+		this.Historia.add(historia);
+
+	}
+
+	public void agregarLibroDeGeografia(Geografia geografia) {
+		
+		this.Geografia.add(geografia);
+		
+	}
+	
+public void agregarLibroDeMatematicas(Matematicas matematica) {
+		
+		this.Matematicas.add(matematica);
 		
 	}
 
