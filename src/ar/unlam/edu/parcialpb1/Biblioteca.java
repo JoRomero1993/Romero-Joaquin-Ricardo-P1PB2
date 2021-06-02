@@ -44,21 +44,26 @@ public class Biblioteca {
 	
 
 	
-	public void agregarLibroDeHistoria(Historia historia) {
+	public Boolean agregarLibroDeHistoria(Historia historia) {
 
 		this.Historia.add(historia);
+		
+		return Boolean.TRUE;
 
 	}
 
-	public void agregarLibroDeGeografia(Geografia geografia) {
+	public Boolean agregarLibroDeGeografia(Geografia geografia) {
 		
 		this.Geografia.add(geografia);
 		
+		return Boolean.TRUE;
 	}
 	
-public void agregarLibroDeMatematicas(Matematicas matematica) {
+public Boolean agregarLibroDeMatematicas(Matematicas matematica) {
 		
 		this.Matematicas.add(matematica);
+		
+		return Boolean.TRUE;
 		
 	}
 
