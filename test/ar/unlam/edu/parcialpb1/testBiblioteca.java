@@ -2,6 +2,7 @@ package ar.unlam.edu.parcialpb1;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
 
@@ -54,10 +55,16 @@ public void sePuedeGuardarLibrosEnBiblioteca() {
 	Geografia geografia1 = new Geografia();
 	Matematicas matematicas1 = new Matematicas();
 	
-bibliotecaNacional.agregarLibroDeHistoria(historia1);	
-bibliotecaNacional.agregarLibroDeGeografia(geografia1);
-bibliotecaNacional.agregarLibroDeMatematicas(matematicas1);
+		
+
+	Boolean okLibro1 = bibliotecaNacional.agregarLibroDeHistoria(historia1);
+	Boolean okLibro2 = 	bibliotecaNacional.agregarLibroDeGeografia(geografia1);
+	Boolean okLibro3 = 	bibliotecaNacional.agregarLibroDeMatematicas(matematicas1);
 	
+	assertTrue(okLibro1);
+	assertTrue(okLibro2);
+	assertTrue(okLibro3);
+
 }
 	
 	
