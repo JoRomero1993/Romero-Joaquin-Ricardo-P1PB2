@@ -40,19 +40,19 @@ public void losEstudiantesSePuedenCrear() {
 }
 public void sePuedeCrearLaBiblioteca() {
 	
-	Biblioteca bibliotecaNacional= new Biblioteca();
+	Biblioteca bibliotecaNacional= new Biblioteca(null, null, null);
 	assertNotNull(bibliotecaNacional);
 	
 }
 public void sePuedeGuardarLibrosEnBuiblioteca() {
 	
-	Biblioteca bibliotecaNacional= new Biblioteca();
+	Biblioteca bibliotecaNacional= new Biblioteca(null, null, null);
 	
 	Historia historia1 = new Historia();
 	Geografia geografia1 = new Geografia();
 	Matematicas matematicas1 = new Matematicas();
 	
-	bibliotecaNacional.set(historia1,geografia1,matematicas1);
+	bibliotecaNacional.setCambiarVariosLibros(historia1, geografia1, matematicas1);
 	
 
 	

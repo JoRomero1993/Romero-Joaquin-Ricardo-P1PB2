@@ -43,10 +43,12 @@ public class Biblioteca {
 
 	
 	public void setCambiarVariosLibros(ArrayList<ar.unlam.edu.parcialpb1.Historia> historia1, ArrayList<ar.unlam.edu.parcialpb1.Geografia> geografia1, ArrayList<ar.unlam.edu.parcialpb1.Matematicas> matematicas1) {
-		this.Historia=historia1;
-		this.Geografia=geografia1;
-		this.Matematicas=matematicas1;
+      this.setGeografia(geografia1);
+      this.setHistoria(historia1);
+      this.setMatematicas(matematicas1);
 		
 	}
+
+	
 
 }
